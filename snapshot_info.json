@@ -1,0 +1,11 @@
+{
+  "captured_date": "2026-11-23",
+  "target_platform": "win-64",
+  "python_version": "3.11.13",
+  "corems_version": "3.2.0",
+  "conda_inventory_records": 135,
+  "explicit_conda_archives": 135,
+  "pip_inventory_records": 50,
+  "fresh_install_verified": false,
+  "note": "Installed-version snapshot, not a newly resolved compatible dependency environment. CoreMS declared NumPy/Matplotlib ranges differ from the working installed versions."
+}

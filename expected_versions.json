@@ -1,0 +1,737 @@
+{
+  "python": "3.11.13",
+  "conda": [
+    {
+      "name": "_openmp_mutex",
+      "version": "4.5",
+      "build": "2_gnu"
+    },
+    {
+      "name": "adjusttext",
+      "version": "1.4.0",
+      "build": "pyhd8ed1ab_1"
+    },
+    {
+      "name": "asttokens",
+      "version": "3.0.0",
+      "build": "pyhd8ed1ab_1"
+    },
+    {
+      "name": "brotli",
+      "version": "1.2.0",
+      "build": "h2d644bc_1"
+    },
+    {
+      "name": "brotli-bin",
+      "version": "1.2.0",
+      "build": "hfd05255_1"
+    },
+    {
+      "name": "bzip2",
+      "version": "1.0.8",
+      "build": "h0ad9c76_8"
+    },
+    {
+      "name": "ca-certificates",
+      "version": "2026.6.17",
+      "build": "h4c7d964_0"
+    },
+    {
+      "name": "certifi",
+      "version": "2026.6.17",
+      "build": "pyhd8ed1ab_0"
+    },
+    {
+      "name": "colorama",
+      "version": "0.4.6",
+      "build": "pyhd8ed1ab_1"
+    },
+    {
+      "name": "comm",
+      "version": "0.2.3",
+      "build": "pyhe01879c_0"
+    },
+    {
+      "name": "contourpy",
+      "version": "1.3.3",
+      "build": "py311h3fd045d_3"
+    },
+    {
+      "name": "cpython",
+      "version": "3.11.13",
+      "build": "py311hd8ed1ab_0"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "build": "pyhcf101f3_2"
+    },
+    {
+      "name": "debugpy",
+      "version": "1.8.17",
+      "build": "py311h5dfdfe8_0"
+    },
+    {
+      "name": "decorator",
+      "version": "5.2.1",
+      "build": "pyhd8ed1ab_0"
+    },
+    {
+      "name": "exceptiongroup",
+      "version": "1.3.0",
+      "build": "pyhd8ed1ab_0"
+    },
+    {
+      "name": "executing",
+      "version": "2.2.1",
+      "build": "pyhd8ed1ab_0"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.61.0",
+      "build": "py311h3f79411_0"
+    },
+    {
+      "name": "freetype",
+      "version": "2.14.1",
+      "build": "h57928b3_0"
+    },
+    {
+      "name": "glib",
+      "version": "2.86.0",
+      "build": "ha3795fc_0"
+    },
+    {
+      "name": "glib-tools",
+      "version": "2.86.0",
+      "build": "he647baa_0"
+    },
+    {
+      "name": "gst-plugins-base",
+      "version": "1.24.11",
+      "build": "h3fe0a9e_0"
+    },
+    {
+      "name": "gstreamer",
+      "version": "1.24.11",
+      "build": "h233a61a_0"
+    },
+    {
+      "name": "icu",
+      "version": "75.1",
+      "build": "he0c23c2_0"
+    },
+    {
+      "name": "importlib-metadata",
+      "version": "8.7.0",
+      "build": "pyhe01879c_1"
+    },
+    {
+      "name": "ipykernel",
+      "version": "6.30.1",
+      "build": "pyh3521513_0"
+    },
+    {
+      "name": "ipython",
+      "version": "9.6.0",
+      "build": "pyh6be1c34_0"
+    },
+    {
+      "name": "ipython_pygments_lexers",
+      "version": "1.1.1",
+      "build": "pyhd8ed1ab_0"
+    },
+    {
+      "name": "jedi",
+      "version": "0.19.2",
+      "build": "pyhd8ed1ab_1"
+    },
+    {
+      "name": "jupyter_client",
+      "version": "8.6.3",
+      "build": "pyhd8ed1ab_1"
+    },
+    {
+      "name": "jupyter_core",
+      "version": "5.8.1",
+      "build": "pyh5737063_0"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.4.9",
+      "build": "py311h275cad7_2"
+    },
+    {
+      "name": "krb5",
+      "version": "1.21.3",
+      "build": "hdf4eb48_0"
+    },
+    {
+      "name": "lcms2",
+      "version": "2.17",
+      "build": "hbcf6048_0"
+    },
+    {
+      "name": "lerc",
+      "version": "4.0.0",
+      "build": "h6470a55_1"
+    },
+    {
+      "name": "libblas",
+      "version": "3.11.0",
+      "build": "4_hf2e6a31_mkl"
+    },
+    {
+      "name": "libbrotlicommon",
+      "version": "1.2.0",
+      "build": "hfd05255_1"
+    },
+    {
+      "name": "libbrotlidec",
+      "version": "1.2.0",
+      "build": "hfd05255_1"
+    },
+    {
+      "name": "libbrotlienc",
+      "version": "1.2.0",
+      "build": "hfd05255_1"
+    },
+    {
+      "name": "libcblas",
+      "version": "3.11.0",
+      "build": "4_h2a3cdd5_mkl"
+    },
+    {
+      "name": "libclang13",
+      "version": "21.1.7",
+      "build": "default_ha2db4b5_1"
+    },
+    {
+      "name": "libdeflate",
+      "version": "1.25",
+      "build": "h51727cc_0"
+    },
+    {
+      "name": "libexpat",
+      "version": "2.7.1",
+      "build": "hac47afa_0"
+    },
+    {
+      "name": "libffi",
+      "version": "3.4.6",
+      "build": "h537db12_1"
+    },
+    {
+      "name": "libfreetype",
+      "version": "2.14.1",
+      "build": "h57928b3_0"
+    },
+    {
+      "name": "libfreetype6",
+      "version": "2.14.1",
+      "build": "hdbac1cb_0"
+    },
+    {
+      "name": "libgcc",
+      "version": "15.2.0",
+      "build": "h8ee18e1_16"
+    },
+    {
+      "name": "libglib",
+      "version": "2.86.0",
+      "build": "h5f26cbf_0"
+    },
+    {
+      "name": "libgomp",
+      "version": "15.2.0",
+      "build": "h8ee18e1_16"
+    },
+    {
+      "name": "libhwloc",
+      "version": "2.12.1",
+      "build": "default_h4379cf1_1003"
+    },
+    {
+      "name": "libiconv",
+      "version": "1.18",
+      "build": "hc1393d2_2"
+    },
+    {
+      "name": "libintl",
+      "version": "0.22.5",
+      "build": "h5728263_3"
+    },
+    {
+      "name": "libintl-devel",
+      "version": "0.22.5",
+      "build": "h5728263_3"
+    },
+    {
+      "name": "libjpeg-turbo",
+      "version": "3.1.2",
+      "build": "hfd05255_0"
+    },
+    {
+      "name": "liblapack",
+      "version": "3.11.0",
+      "build": "4_hf9ab0e9_mkl"
+    },
+    {
+      "name": "liblzma",
+      "version": "5.8.1",
+      "build": "h2466b09_2"
+    },
+    {
+      "name": "libogg",
+      "version": "1.3.5",
+      "build": "h2466b09_1"
+    },
+    {
+      "name": "libpng",
+      "version": "1.6.53",
+      "build": "h7351971_0"
+    },
+    {
+      "name": "libsodium",
+      "version": "1.0.20",
+      "build": "hc70643c_0"
+    },
+    {
+      "name": "libsqlite",
+      "version": "3.50.4",
+      "build": "hf5d6505_0"
+    },
+    {
+      "name": "libtiff",
+      "version": "4.7.1",
+      "build": "h8f73337_1"
+    },
+    {
+      "name": "libvorbis",
+      "version": "1.3.7",
+      "build": "h5112557_2"
+    },
+    {
+      "name": "libwebp-base",
+      "version": "1.6.0",
+      "build": "h4d5522a_0"
+    },
+    {
+      "name": "libwinpthread",
+      "version": "12.0.0.r4.gg4f2fc60ca",
+      "build": "h57928b3_10"
+    },
+    {
+      "name": "libxcb",
+      "version": "1.17.0",
+      "build": "h0e4246c_0"
+    },
+    {
+      "name": "libxml2",
+      "version": "2.15.1",
+      "build": "ha29bfb0_0"
+    },
+    {
+      "name": "libxml2-16",
+      "version": "2.15.1",
+      "build": "h06f855e_0"
+    },
+    {
+      "name": "libzlib",
+      "version": "1.3.1",
+      "build": "h2466b09_2"
+    },
+    {
+      "name": "llvm-openmp",
+      "version": "21.1.7",
+      "build": "h4fa8253_0"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.8.4",
+      "build": "py311h1ea47a8_2"
+    },
+    {
+      "name": "matplotlib-base",
+      "version": "3.8.4",
+      "build": "py311h9b31f6e_2"
+    },
+    {
+      "name": "matplotlib-inline",
+      "version": "0.1.7",
+      "build": "pyhd8ed1ab_1"
+    },
+    {
+      "name": "mkl",
+      "version": "2025.3.0",
+      "build": "hac47afa_454"
+    },
+    {
+      "name": "munkres",
+      "version": "1.1.4",
+      "build": "pyhd8ed1ab_1"
+    },
+    {
+      "name": "nest-asyncio",
+      "version": "1.6.0",
+      "build": "pyhd8ed1ab_1"
+    },
+    {
+      "name": "networkx",
+      "version": "3.4",
+      "build": "pyhd8ed1ab_0"
+    },
+    {
+      "name": "numpy",
+      "version": "1.26.4",
+      "build": "py311h0b4df5a_0"
+    },
+    {
+      "name": "openjpeg",
+      "version": "2.5.4",
+      "build": "h24db6dd_0"
+    },
+    {
+      "name": "openssl",
+      "version": "3.6.3",
+      "build": "hf411b9b_0"
+    },
+    {
+      "name": "packaging",
+      "version": "25.0",
+      "build": "pyh29332c3_1"
+    },
+    {
+      "name": "pandas",
+      "version": "1.5.3",
+      "build": "py311hf63dbb6_1"
+    },
+    {
+      "name": "parso",
+      "version": "0.8.5",
+      "build": "pyhcf101f3_0"
+    },
+    {
+      "name": "patsy",
+      "version": "1.0.2",
+      "build": "pyhcf101f3_0"
+    },
+    {
+      "name": "pcre2",
+      "version": "10.46",
+      "build": "h3402e2f_0"
+    },
+    {
+      "name": "pickleshare",
+      "version": "0.7.5",
+      "build": "pyhd8ed1ab_1004"
+    },
+    {
+      "name": "pillow",
+      "version": "12.0.0",
+      "build": "py311h17b8079_2"
+    },
+    {
+      "name": "pip",
+      "version": "25.2",
+      "build": "pyh8b19718_0"
+    },
+    {
+      "name": "platformdirs",
+      "version": "4.4.0",
+      "build": "pyhcf101f3_0"
+    },
+    {
+      "name": "ply",
+      "version": "3.11",
+      "build": "pyhd8ed1ab_3"
+    },
+    {
+      "name": "prompt-toolkit",
+      "version": "3.0.52",
+      "build": "pyha770c72_0"
+    },
+    {
+      "name": "psutil",
+      "version": "7.1.0",
+      "build": "py311h3485c13_0"
+    },
+    {
+      "name": "pthread-stubs",
+      "version": "0.4",
+      "build": "h0e40799_1002"
+    },
+    {
+      "name": "pure_eval",
+      "version": "0.2.3",
+      "build": "pyhd8ed1ab_1"
+    },
+    {
+      "name": "pygments",
+      "version": "2.19.2",
+      "build": "pyhd8ed1ab_0"
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.2.5",
+      "build": "pyhcf101f3_0"
+    },
+    {
+      "name": "pyqt",
+      "version": "5.15.11",
+      "build": "py311h7c55f98_2"
+    },
+    {
+      "name": "pyqt5-sip",
+      "version": "12.17.0",
+      "build": "py311h3e6a449_2"
+    },
+    {
+      "name": "python",
+      "version": "3.11.13",
+      "build": "h3f84c4b_0_cpython"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "build": "pyhe01879c_2"
+    },
+    {
+      "name": "python-louvain",
+      "version": "0.16",
+      "build": "pyhd8ed1ab_1"
+    },
+    {
+      "name": "python_abi",
+      "version": "3.11",
+      "build": "8_cp311"
+    },
+    {
+      "name": "pytz",
+      "version": "2025.2",
+      "build": "pyhd8ed1ab_0"
+    },
+    {
+      "name": "pywin32",
+      "version": "311",
+      "build": "py311hefeebc8_1"
+    },
+    {
+      "name": "pyzmq",
+      "version": "27.1.0",
+      "build": "py311hb77b9c8_0"
+    },
+    {
+      "name": "qt-main",
+      "version": "5.15.15",
+      "build": "hb098fff_6"
+    },
+    {
+      "name": "scipy",
+      "version": "1.16.3",
+      "build": "py311hf127856_1"
+    },
+    {
+      "name": "seaborn",
+      "version": "0.13.2",
+      "build": "hd8ed1ab_3"
+    },
+    {
+      "name": "seaborn-base",
+      "version": "0.13.2",
+      "build": "pyhd8ed1ab_3"
+    },
+    {
+      "name": "setuptools",
+      "version": "80.9.0",
+      "build": "pyhff2d567_0"
+    },
+    {
+      "name": "sip",
+      "version": "6.10.0",
+      "build": "py311h3e6a449_1"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "build": "pyhe01879c_1"
+    },
+    {
+      "name": "stack_data",
+      "version": "0.6.3",
+      "build": "pyhd8ed1ab_1"
+    },
+    {
+      "name": "statsmodels",
+      "version": "0.14.6",
+      "build": "py311h17033d2_0"
+    },
+    {
+      "name": "tbb",
+      "version": "2022.3.0",
+      "build": "hd094cb3_1"
+    },
+    {
+      "name": "tk",
+      "version": "8.6.13",
+      "build": "h2c6b04d_2"
+    },
+    {
+      "name": "toml",
+      "version": "0.10.2",
+      "build": "pyhcf101f3_3"
+    },
+    {
+      "name": "tomli",
+      "version": "2.3.0",
+      "build": "pyhcf101f3_0"
+    },
+    {
+      "name": "tornado",
+      "version": "6.5.2",
+      "build": "py311h3485c13_1"
+    },
+    {
+      "name": "traitlets",
+      "version": "5.14.3",
+      "build": "pyhd8ed1ab_1"
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.15.0",
+      "build": "pyhcf101f3_0"
+    },
+    {
+      "name": "tzdata",
+      "version": "2025b",
+      "build": "h78e105d_0"
+    },
+    {
+      "name": "ucrt",
+      "version": "10.0.26100.0",
+      "build": "h57928b3_0"
+    },
+    {
+      "name": "unicodedata2",
+      "version": "17.0.0",
+      "build": "py311h3485c13_1"
+    },
+    {
+      "name": "vc",
+      "version": "14.3",
+      "build": "h41ae7f8_31"
+    },
+    {
+      "name": "vc14_runtime",
+      "version": "14.44.35208",
+      "build": "h818238b_31"
+    },
+    {
+      "name": "vcomp14",
+      "version": "14.44.35208",
+      "build": "h818238b_31"
+    },
+    {
+      "name": "vs2015_runtime",
+      "version": "14.44.35208",
+      "build": "h38c0c73_31"
+    },
+    {
+      "name": "wcwidth",
+      "version": "0.2.14",
+      "build": "pyhd8ed1ab_0"
+    },
+    {
+      "name": "wheel",
+      "version": "0.45.1",
+      "build": "pyhd8ed1ab_1"
+    },
+    {
+      "name": "xorg-libxau",
+      "version": "1.0.12",
+      "build": "hba3369d_1"
+    },
+    {
+      "name": "xorg-libxdmcp",
+      "version": "1.1.5",
+      "build": "hba3369d_1"
+    },
+    {
+      "name": "zeromq",
+      "version": "4.3.5",
+      "build": "h5bddc39_9"
+    },
+    {
+      "name": "zipp",
+      "version": "3.23.0",
+      "build": "pyhd8ed1ab_0"
+    },
+    {
+      "name": "zlib-ng",
+      "version": "2.3.2",
+      "build": "h5112557_0"
+    },
+    {
+      "name": "zstd",
+      "version": "1.5.7",
+      "build": "h534d264_6"
+    }
+  ],
+  "python_distributions": {
+    "asteval": "1.0.6",
+    "beautifulsoup4": "4.12.3",
+    "boto3": "1.40.45",
+    "botocore": "1.40.45",
+    "certifi": "2025.8.3",
+    "cffi": "2.0.0",
+    "cftime": "1.6.4.post1",
+    "chardet": "5.1.0",
+    "charset-normalizer": "3.4.3",
+    "clr-loader": "0.2.7.post0",
+    "contourpy": "1.3.2",
+    "corems": "3.2.0",
+    "cython": "3.1.4",
+    "deprecated": "1.2.18",
+    "et-xmlfile": "2.0.0",
+    "fonttools": "4.60.1",
+    "greenlet": "3.2.4",
+    "h5py": "3.8.0",
+    "hopcroftkarp": "1.2.5",
+    "idna": "3.10",
+    "ipykernel": "6.30.1",
+    "isospecpy": "2.2.3",
+    "jmespath": "1.0.1",
+    "joblib": "1.5.2",
+    "lmfit": "1.1.0",
+    "lxml": "4.9.4",
+    "matplotlib": "3.8.4",
+    "ms-entropy": "1.2.2",
+    "netcdf4": "1.6.5",
+    "numpy": "1.26.4",
+    "openpyxl": "3.1.5",
+    "pandas": "1.5.3",
+    "persim": "0.3.8",
+    "pillow": "11.3.0",
+    "psycopg2": "2.9.10",
+    "pycparser": "2.23",
+    "pymzml": "2.5.11",
+    "pyswarm": "0.6",
+    "pythonnet": "3.0.5",
+    "regex": "2025.9.18",
+    "requests": "2.31.0",
+    "ripser": "0.6.12",
+    "s3path": "0.4.2",
+    "s3transfer": "0.14.0",
+    "scikit-learn": "1.2.2",
+    "scipy": "1.16.3",
+    "setuptools": "67.3.3",
+    "smart-open": "7.3.1",
+    "soupsieve": "2.8",
+    "sqlalchemy": "1.4.54",
+    "threadpoolctl": "3.6.0",
+    "tqdm": "4.64.1",
+    "uncertainties": "3.2.3",
+    "urllib3": "2.5.0",
+    "wrapt": "1.17.3"
+  }
+}

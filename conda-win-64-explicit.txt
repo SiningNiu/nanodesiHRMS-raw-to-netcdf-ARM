@@ -1,0 +1,3 @@
+# Windows win-64 snapshot from installed conda-meta records; includes noarch packages.
+# conda create -n coreMS --file conda-win-64-explicit.txt
+@EXPLICIT
